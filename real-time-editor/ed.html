@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Real-Time Code Editor</title>
+    <link rel="stylesheet" href="ed.css">
+    <script defer src="ed.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/split.js/1.0.0/split.min.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container split">
+        <label for="htmlCode">HTML</label>
+        <textarea id="htmlCode" placeholder="Type HTML code here" spellcheck="false"></textarea>
+
+        <label for="cssCode">CSS</label>
+        <textarea id="cssCode" placeholder="Type CSS code here" spellcheck="false"></textarea>
+
+        <label for="javascriptCode">JavaScript</label>
+        <textarea id="javascriptCode" placeholder="Type JavaScript code here" spellcheck="false"></textarea>
+    </div>
+
+    <div class="iframe-container split">
+        <iframe id="viewer" sandbox="allow-scripts allow-same-origin"></iframe>
+    </div>
+</body>
+</html>
