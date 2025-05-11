@@ -15,15 +15,17 @@ This project is ideal for learning, testing snippets, or experimenting with fron
 
 ## 📁 Project Structure
 
+assets # Demo Screenshots
+
 real-time-editor/
 
 ├── ed.html # Main HTML layout
 
 ├── ed.css # Styling for editor and layout
 
-├── ed.js # Live update logic and tab handler
+└── ed.js # Live update logic and tab handler
 
-└── README.md # Project documentation
+README.md # Project documentation
 
 ---
 
@@ -38,7 +40,7 @@ cd Final-Project-TnP-
 
 ### 2. Run the Project
 
-No server setup is needed. Just open ed.html in your browser.
+No server setup is needed. Just open `ed.html` in your browser.
 
 ### 3. Start Coding
 
@@ -81,7 +83,13 @@ The layout adjusts for smaller screens:
 
 ## ✨ Screenshot / Demo
 
-Coming Soon
+Here's how the editor looks in action:
+
+![Live Preview Screenshot](/assets/Screenshot1.png)
+
+![Live Preview Screenshot](/assets/Screenshot2.png)
+
+![Live Preview Screenshot](/assets/Screenshot3.png)
 
 ---
 
